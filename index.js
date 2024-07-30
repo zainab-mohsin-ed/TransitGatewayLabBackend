@@ -29,7 +29,7 @@ app.get("/api/getmeals", (req,res)=>{
     if(err) {
       console.log(err);
     } 
-    console.log(print(result))
+    console.log(result)
     res.send(result);
   });   
 });
